@@ -1,39 +1,74 @@
-# Chat/Messaging App Light and Dark Theme - Flutter UI
+# Chat-Messaging-app
 
-## [Watch it on YouTube](https://youtu.be/uiJF-ShOLyo)
+This is a simple chat application built using Flutter. The app uses constant data for chat messages and does not connect to any backend service.
 
-## [Complete Source Code (Patreon only)](https://bit.ly/3n5mdwS)
+## Features
 
-**Packages we are using:**
+- Simple and intuitive user interface
+- Display chat messages from constant data
+- Basic chat functionalities without backend integration
 
-- goole_fonts: [link](https://pub.dev/packages/google_fonts)
+## Screenshots
 
-Today we gonna build messing/chat app #ui using #flutter that runs both Android and iOS devices also has a dark and light theme. We create in total 4 screens all of that support both Dark Theme and Light Theme. At first, we design a welcome screen that contains an image with a tag line also has a skip button. Once the user press, its transfers to the Sign-in or Sign-up screen. The last two screens are the main screen, Chats screens it shows the list of people you are chated with. At the end message screen which support text message, audio message, and video messages.
+![Chat Screen](path/to/chat_screen_screenshot.png)
 
-**Complete UI Contains:**
+## Getting Started
 
-► Splash Screen
-► Welcome Screen
-► Sign in & Sign up
-► Phone Validation (OTP)
-► Forget Password
-► Change Password
-► Chats Screen
-► Search Chats
-► Message Screen
-► Audio Call
-► Video Call
-► Contacts
-► Search Contacts
-► Call History
-► Search on Call history
-► Profile Screen
-► Edit Profile
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Chat/Messaging App Light and Dark Theme Final UI
+### Prerequisites
 
-![Preview](/gif.gif)
-![Preview](/ui_kit.gif)
+Make sure you have Flutter installed on your machine. You can download it from [here](https://flutter.dev/docs/get-started/install).
 
-![App UI](/ui.png)
-![App UI](/chat_kit.png)
+### Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/flutter_chat_app.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd flutter_chat_app
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+4. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+
+## Project Structure
+
+- **lib/main.dart:** Entry point of the application.
+- **lib/screens/**: Contains the screen widgets.
+- **lib/widgets/**: Contains reusable widgets.
+- **lib/models/**: Contains data models.
+- **lib/constants/**: Contains constant data used in the app.
+
+## Usage
+
+- Open the app on your emulator or physical device.
+- Navigate through the chat screen to see the chat messages.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Flutter documentation and community for the support and tutorials.
+
+
