@@ -10,7 +10,7 @@ This is a simple chat application built using Flutter. The app uses constant dat
 
 ## Screenshots
 
-![Chat Screen](path/to/chat_screen_screenshot.png)
+![Chat Screen](assets/images/chat_screen_screenshot.png)
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ Make sure you have Flutter installed on your machine. You can download it from [
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/flutter_chat_app.git
+    git clone https://github.com/VaibhavTambe-FlutterDev/flutter_chat_app.git
     ```
 
 2. **Navigate to the project directory:**
